@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/documentinjestion?createDatabaseIfNotExist=true # Or e.g., jdbc:postgresql://localhost:5432/your_db
+    username: root # e.g., your_postgres_user
+    password: Manidada@2 # e.g., your_postgres_password
+    driver-class-name: com.mysql.cj.jdbc.Driver # Or org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect # Or org.hibernate.dialect.PostgreSQLDialect
