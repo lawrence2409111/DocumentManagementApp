@@ -6,6 +6,7 @@
     <artifactId>document-management-app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>document-management-app</name>
+    <packaging>jar</packaging>     
     <description>Document Management Application</description>
     <properties>
         <java.version>17</java.version>
